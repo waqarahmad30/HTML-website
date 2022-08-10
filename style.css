@@ -1,0 +1,191 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.back
+{
+    background: url("bg1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar
+{
+    position: inherit;
+    background-color: black;
+    opacity: 75%;
+    height: 100px;
+}
+.navbar .logo
+{
+    height: auto;
+    width: 246px;
+    padding: 10px 30px;
+}
+.navbar ul
+{
+float: right;
+margin: 20px;
+}
+.navbar ul li
+{
+    list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fde2e2;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+
+.about-div-1
+
+{
+    background: url("img1.jpg") no-repeat;
+    background-position:center bottom;
+    background-size: cover;
+    height: 70vh;
+    font-family: sans-serif;
+    width: 100%;
+    overflow: hidden !important;
+    
+}
+.about-div-1 h1
+{
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    color: black;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+    border:none;
+    border-bottom: 2px solid rgb(204, 49, 49);
+}
+.about-div-1 p
+{
+    position: absolute;
+    left: 12%;
+    top: 45%;
+    color: black;
+}
+.about-div-2
+{
+    background-color: rgb(240, 233, 233);
+    height: 30vh;
+    font-family: sans-serif;
+    
+
+}
+.about-div-2 h3
+{
+    position: absolute;
+    left: 5%;
+    top: 73%;
+    color: rgb(153, 24, 24);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+    border-bottom: 2px solid rgb(204, 49, 49);
+
+}
+.about-div-2 p
+{
+    position: absolute;
+    left: 8%;
+    top: 80%;
+    color: black;
+}
+.about-buttons{
+	/* margin: 70px 280px; */
+   position: absolute;
+   left: 80%;
+    top: 80%;
+
+}
+.about-buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fde2e2;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.about-buttons .btn2{
+	margin-left: 25px;
+}
+.about-buttons button:hover{
+	background: #cc0000;
+}
+.about-buttons input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(204, 49, 49);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(27, 23, 23);
+    font-size: 16px;
+}
